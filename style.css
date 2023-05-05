@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    border: 1px solid rgb(215, 215, 215);
+    font-weight: bold;
+}
+.logo{
+    margin-right: 400px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.navbar ul li{
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    transition: 0.5s;
+}
+.home:hover{
+    width: 60px;
+    height: 55px;
+    background-color: rgb(59, 59, 59);
+}
+.home a:hover{
+    color: white;
+}
+
+.home img{
+    width: 14px;
+    height: 14px;
+}
+
+.portfolio{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.portfolio img{
+    width: 14px;
+    height: 14px;
+}
+.portfolio:hover{
+    width: 80px;
+    height: 55px;
+    background-color: rgb(59, 59, 59);
+}
+
+.portfolio a:hover{
+    color: white;
+}
+
+
+
+.blog{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.blog:hover{
+    width: 50px;
+    height: 55px;
+    background-color: rgb(59, 59, 59);
+}
+.blog a:hover{
+    color: white;
+}
+
+.blog img{
+    width: 14px;
+    height: 14px;
+}
+
+.left-side-photo img{
+    width: 300px;
+    height: 520px;
+    margin-left: 30px;
+}
+
+.hello{
+    display: flex;
+    float: right;
+}
+
+.big{
+    width: 600px;
+    height: 250px;
+    background-color: rgb(243, 241, 241);
+    margin-top: -400px;
+    margin-right: 100px;
+}
+.smaller{
+    width: 500px;
+    height: 180px;
+    border: 2px solid white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.smaller  {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.smaller h1{
+    font-size: 60px;
+    opacity: 0.7;
+}
+
+.bottomtext p{
+font-size: 18px;
+font-weight: bold;
+opacity: 0.7;
+}
+.line1 hr{
+    margin-top: -4px;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.list{
+    margin-top: 40px;
+}
+
+.list ul li{
+    list-style-type: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.list li a{
+    transition: 300ms;
+}
+
+.list li a:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.photos{
+    margin: 40px 0px;
+    padding: 0px 70px;
+}
+
+.cup img{
+    width: 700px;
+    height: 500px;
+}
+
+.card img{
+    display: flex;
+    float: right;
+    margin-top: -505px;
+    width: 400px;
+    height: 250px;
+}
+
+.watch img{
+    display: flex;
+    float: right;
+    margin-top: -250px;
+    width: 400px;
+    height: 250px; 
+}
+
+.large img{
+    margin: 30px 0px;
+    width: 700px;
+    height: 250px;
+}
+
+.something img{
+    display: flex;
+    float: right;
+    margin-top: -285px;
+    width: 400px;
+    height: 250px;
+}
+
+.cards img{
+    width: 550px;
+    height: 300px;
+}
+
+.leon img{
+    display: flex;
+    float: right;
+    margin-top: -305px;
+    width: 550px;
+    height: 300px;
+}
+.load{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.load p{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.load img{
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+}
+
+.myblog{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(243, 241, 241);
+}
+
+.p p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+.divs{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.firstdiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.firstdiv h5{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.firstdiv p{
+    margin-top: 10px;
+}
+
+.seconddiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.seconddiv h5{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.seconddiv p{
+    margin-top: 10px;
+}
+
+.thirddiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thirddiv h5{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.thirddiv p{
+    margin-top: 10px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.leftside{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rightside ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px; 
+}
+
+.rightside ul li{
+    list-style-type: none;
+}
+
+.rightside a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px){
+    .header{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 1400px;
+    }
+
+    .navbar ul{
+        gap: 70px;
+        width: 100%;
+    }
+
+    .left-side-photo{
+        margin-left: 100px;
+    }
+
+    .hello {
+        margin-right: -400px;
+    }
+
+    .line1 hr{
+    width: 1400px;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 300px;
+    }
+
+    .photos{
+        flex-direction: column;
+        margin-left: 200px;
+    }
+
+    .cards img{
+        width: 400px;
+        height: 300px;
+        margin-left: 400px;
+    }
+
+    .leon img{
+        width: 400px;
+        height: 300px;
+        margin-right: 200px;
+    }
+     .load{
+        margin-left: 500px;
+     }
+     .myblog{
+        width: 1400px;
+     }
+
+
+
+}
